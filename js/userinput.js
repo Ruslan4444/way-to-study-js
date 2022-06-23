@@ -21,3 +21,13 @@ console.log(isComing);
 
 // prompt() displays a modal window with an input field and two buttons, Ok and Cancel.
 //  When clicking Ok, the result will be what the user enters, while Cancel returns null.
+// Ask for the name of the hotel where the client would like to stay
+// and save the prompt result to a variable.
+const hotelName = prompt("Please enter desired hotel name");
+console.log(hotelName);
+
+// An important feature of prompt is that, no matter what the user enters, it always returns a string.
+// That is, if the user enters 5, it will return not the number 5, but the string "5".
+const value = prompt("Please enter a number!");
+console.log(typeof value);
+console.log(value);
